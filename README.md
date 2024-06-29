@@ -17,11 +17,11 @@ this project is a example applicacion using python fast
 > uvicorn main:app --host 0.0.0.0 --port 5000 --reload
 
 ### OpenAPI docs - Swagger
-http://localhost:5000/docs
-http://localhost:5000/redoc
+* http://localhost:5000/docs
+* http://localhost:5000/redoc
 
 ### generate requirements.txt
-pip freeze > requirements.txt
+> pip freeze > requirements.txt
 
 ### install requirements.txt
-pip install -r requirements.txt
+> pip install -r requirements.txt
